@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-sizing: border-box;
+    -ms-box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+article {
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+color: #3A3A3A;
+margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section > img {
+    margin-bottom: 10px;
+    width: 100%;
+}
+section .text > span{
+    display: block;
+}
+section .text > span:nth-child(1){
+    font-size: 16px;
+    line-height: 20px;
+    color: #3A3A3A;
+}
+
+section .text > span:nth-child(2){
+    font-size: 12px;
+    line-height: 12px;
+    color: #3A3A3A;
+}
