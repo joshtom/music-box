@@ -24,10 +24,17 @@ header {
 
 @media screen and (max-width: 573px) {
     header {
-        /* background: red; */
         grid-template-columns: 15fr 1fr;
         grid-template-rows: 50px 5px;
+        position: sticky;
+		top: 0;
+		z-index: 1;
+		background: #fff;
     }
+
+    .shadow {
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 4px 0px;
+	}
 
     header .avatar {
         /* background: purple; */
@@ -37,7 +44,6 @@ header {
     header .search {
         grid-row: 3;
         grid-column: span 3 / 3;
-        /* background: pink; */
     }
 
     header .search input {
